@@ -1,0 +1,23 @@
+.aa{
+	/*margin: 40px 30px 20px 10px ;*/
+	/*外边距一级属性,有4个属性值，分别是上右下左边距*/
+	margin: 40px 30px 20px;
+	/*  没有左边距则默认左边距等于右边距
+		没有下边距则默认下边距等于上边距
+		只有上边距则默认其他三个边距等于上边距*/
+	margin: 40px auto;
+	/*auto自动，在自身标签有宽度情况下，auto默认平分浏览器宽度与自身标签宽度的差值
+	    有宽度情况下，实现标签居中，通常只给左右设置auto，不给上下设置auto
+	 */
+	width:300px;
+	border: 1px solid black;
+	/*边框,三个属性值,1px为边框宽度,solid实线（线型),black为边框颜色*/
+	/*margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;*/
+	/*margin的二级属性,只设置某一方向的边距,其他边距不设置*/
+	
+	padding: 20px;
+	/*padding内边距,使用方法与margin完全一样,没有差距,内边距不设置auto*/
+}
